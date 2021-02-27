@@ -1,0 +1,8 @@
+[user]
+	name = Bruno Petrus
+	email = bruno.petrus@live.com
+	signingkey = bruno.petrus@live.com
+[core]
+	editor = nvim
+[commit]
+	gpgsign = true
