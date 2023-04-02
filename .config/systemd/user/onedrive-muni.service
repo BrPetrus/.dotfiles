@@ -1,0 +1,9 @@
+[Unit]
+Description=MUNI OneDrive synchronization.
+
+[Service]
+Type=simple
+ExecStart=sh -c "rclone --vfs-cache-mode writes mount muni-onedrive: ~/MUNI-OneDrive --allow-non-empty"
+
+[Install]
+WantedBy=default.target

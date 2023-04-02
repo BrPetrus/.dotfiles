@@ -1,6 +1,10 @@
 [user]
-	name = Bruno Petrus
-	email = bruno.petrus@live.com
-[core]
-	editor = nvim
+    email = xpetrus@fi.muni.cz
+    name = Bruno Petrus
+	signingkey = 2FCEC02A
+[alias]
+    graph = log --oneline --decorate --graph --all
 [commit]
+	gpgsign = true
+[core]
+	autocrlf = input
